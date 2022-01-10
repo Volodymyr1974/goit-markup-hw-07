@@ -40,10 +40,9 @@
     border: none;
     width: 44px;
     height: 44px;
-}
-
-.socials__items:not(:last-child) {
-    margin-right: 10px;
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
 }
 
 .socials__link {
@@ -57,10 +56,9 @@
     fill: #AFB1B8;
     background-color: var(--white-color-bgc-text);
     transition: fill 250ms var(--primary-cubic), background-color 250ms var(--primary-cubic);
-}
-
-.socials__link:hover,
-.socials__link:focus {
-    background-color: var(--accent-color);
-    fill: var(--white-color-bgc-text);
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+        fill: var(--white-color-bgc-text);
+    }
 }
