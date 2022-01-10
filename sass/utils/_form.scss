@@ -78,9 +78,7 @@
 }
 
 .policy-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredflex();
     font-size: 14px;
     line-height: 1.71;
     color: var(--secondary-text-color);
@@ -126,7 +124,7 @@
 }
 
 .modal-form__btn {
-    display: flex;
+    @include centeredflex();
     width: 200px;
     height: 50px;
     margin-top: 30px;
@@ -134,8 +132,6 @@
     margin-right: auto;
     cursor: pointer;
     border: none;
-    justify-content: center;
-    align-items: center;
     background-color: var(--accent-color);
     color: var(--white-color-bgc-text);
     font-weight: 700;
